@@ -1,0 +1,117 @@
+
+body{
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    background-image: linear-gradient(to top, rgba(48, 208, 208, 0.502) 0%, rgba(51, 8, 103, 0.502) 100%), url(/img/thewitcher.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-attachment: fixed;
+
+}
+
+header{
+    background: black ;
+    padding: 10px;
+    margin-bottom: 20px 
+}
+
+h2{
+    text-align: end;
+    margin-top: none;
+    margin-right: 20px;
+    letter-spacing: 5px;
+}
+
+h1{
+    margin: 0;
+    color: white;
+    letter-spacing: 10px;
+    text-align: center;
+
+}
+
+main{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, .7);
+    display: flex;
+    gap: 20px;
+}
+
+#palabra_adivinar{
+    height: 3em;
+    
+}
+
+
+#palabra_adivinar span{
+    vertical-align: bottom;
+    font-size: 2em;
+    border-bottom: 2px solid black;
+    width: 30px;
+    text-align: center;
+    margin-right: 6px;
+    display: inline-block;
+    margin-top: 30px;
+    
+}
+
+#jugar{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Orbitron', sans-serif;
+    height: 40px;
+    letter-spacing: 3px;
+    font-weight: 700;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    background: #007bff;
+    color: #f8f9fa;
+    cursor: pointer;
+}
+
+#jugar:hover{
+    background: #f8f9fa;
+    border: 1px solid #007bff ;
+    color: #007bff;
+}
+
+
+#letras button{
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #007bff;
+    font-weight: bold;
+    cursor: pointer; 
+    font-family: 'Orbitron', sans-serif;
+    margin-bottom: 5px;
+    color: #007bff;
+    
+}
+
+
+
+#letras button:hover{
+    border: 1px solid white;
+    cursor: pointer; 
+    background:#007bff;
+    color: white;
+    
+}
+
+
+#letras button:disabled{
+    border: none; 
+    background: lightgray;
+   
+    
+}
+
+
+
+
+
